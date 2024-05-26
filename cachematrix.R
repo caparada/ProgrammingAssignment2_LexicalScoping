@@ -1,4 +1,3 @@
-# Based on the examples given
 # Let's create the 1st function named makeCacheMatrix()
 # makeCacheMatrix() creates a special "matrix" and:
 # 1. set the value of the matrix
@@ -38,7 +37,7 @@ cacheSolve <- function(x, ...) {
 
 
 # Testing the functions
-# Testing the function makeCacheMatrix()
+# Testing makeCacheMatrix()
 x <- matrix(1:4, 2, 2) # creating an input
 x # check
 makeCacheMatrix.object <- makeCacheMatrix(x) #  calling makeCacheMatrix(x) and storing in the var makeCacheMatrix.object
@@ -48,5 +47,5 @@ makeCacheMatrix.object$get
 makeCacheMatrix.object$setInv
 makeCacheMatrix.object$getInv
 
-# Testing the cacheSolve() function
+# Testing cacheSolve()
 cacheSolve(makeCacheMatrix.object)
